@@ -17,7 +17,7 @@ async  function searchCity() {
   }
 
   return (
-   <div>
+   <div className='container'>
     <h1>Danilo Santos Previsão do tempo</h1>
     <input type="text" placeholder='Digite o nome da cidade'/>
     <button onClick={searchCity}>Buscar</button>
